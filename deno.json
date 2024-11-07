@@ -1,0 +1,16 @@
+{
+  "workspace": [
+    "packages/api",
+    "packages/vite-react",
+    "packages/tanstack-start"
+  ],
+  "imports": {
+    "hono": "npm:hono@^4.6.9",
+    "@namespace/api": "./packages/api/src/index.ts"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "lib": ["esnext", "dom", "dom.iterable", "deno.ns"]
+  }
+}
